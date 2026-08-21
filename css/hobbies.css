@@ -1,0 +1,104 @@
+/*
+    HOBBIES.CSS
+    Estilos específicos da página de hobbies.
+
+    A página foi inspirada nos antigos fotologs:
+    as publicações aparecem uma abaixo da outra.
+*/
+
+/* Área que reúne todas as publicações */
+.fotolog {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Apresentação da página */
+.apresentacao-hobbies {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.apresentacao-hobbies h2 {
+    color: #173b82;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.apresentacao-hobbies p {
+    color: #666666;
+    line-height: 1.5;
+}
+
+/* Caixa de cada publicação */
+.publicacao {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+
+/* Parte superior da publicação */
+.cabecalho-publicacao {
+    border-bottom: 1px solid #dddddd;
+    padding: 15px 20px;
+}
+
+.cabecalho-publicacao p {
+    margin: 3px 0;
+}
+
+.usuario {
+    color: #173b82;
+    font-weight: bold;
+}
+
+.categoria {
+    color: #777777;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+/* Fotografia e legenda */
+figure {
+    margin: 0;
+}
+
+.foto-publicacao {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+figcaption {
+    background-color: #eeeeee;
+    color: #555555;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+}
+
+/* Texto abaixo da fotografia */
+.texto-publicacao {
+    padding: 5px 20px 15px 20px;
+}
+
+.texto-publicacao h3 {
+    color: #173b82;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.texto-publicacao p {
+    line-height: 1.6;
+}
+
+.acoes {
+    color: #c13584;
+    font-weight: bold;
+}
+
+/* Data da publicação */
+.rodape-publicacao {
+    border-top: 1px solid #dddddd;
+    color: #777777;
+    font-size: 0.85rem;
+    padding: 12px 20px;
+}

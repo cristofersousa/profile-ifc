@@ -1,0 +1,78 @@
+/*
+    GLOBAL.CSS
+    Estilos compartilhados entre todas as páginas do portal.
+
+    Este arquivo cuida somente de:
+    1. Configurações gerais;
+    2. Cabeçalho;
+    3. Menu de navegação;
+    4. Área de conteúdo;
+    5. Rodapé.
+*/
+
+/* Configurações gerais */
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho compartilhado */
+.cabecalho-site {
+    background-color: #173b82;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.cabecalho-site h1 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho-site p {
+    margin: 8px 0 20px 0;
+}
+
+/* Menu principal */
+.menu-site ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-site li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu-site a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-site a:hover {
+    color: #ffcc66;
+    text-decoration: underline;
+}
+
+/* Espaçamento do conteúdo de cada página */
+.conteudo-pagina {
+    padding: 30px 15px;
+}
+
+/* Rodapé compartilhado */
+.rodape-site {
+    background-color: #102653;
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.rodape-site p {
+    margin: 5px 0;
+}

@@ -1,88 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio - Cristofer Sousa</title>
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <div class="container">
-            <img src="./images/cristofersousa-porfolio.webp" alt="Portfolio" class="portfolio-image">
-            <h1>Olá, eu sou o Cristofer Sousa.</h1>
-            <h3>
-                Jogo hóquei em linha e sou um desenvolvedor web.
-            </h3>
-            <p>Abaixo, você pode conferir alguns dos meus projetos. skills e trabalhos profissionais.</p>
-            <hr>
-            <h2>Informações Acadêmicas</h2>
-            <p>
-                <span>Curso:</span>
-                Redes de Computadores
-            </p>
-            <p>
-                <span>Disciplina:</span>
-                Desenvolvimento Web I
-            </p>
-            <p>
-                <span>Carga Horária:</span>
-                60 horas
-            </p>
-            <hr>
-            <h2>Hobbies</h2>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação | Meu Portal</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meu Portal</h1>
+        <p>Programação, hobbies e um pouco sobre mim</p>
+
+        <nav>
             <ul>
-                <li>Hockey Inline</li>
-                <li>Churrasco</li>
-                <li>Músicas</li>
-                <li>Filmes e Séries de Ficção / Comédia</li>
+                <li><a href="programacao.html">Programação</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="perfil.html">Sobre mim</a></li>
             </ul>
-            <hr>
-            <h2>Carreira</h2>
-            <p>As tecnologias que domino:</p>
-            <ul>
-                <li>Node</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Python</li>
-            </ul>
-            <hr>
-            <h2>Redes Sociais:</h2>
-            <!--
-                Links externos:
+        </nav>
+    </header>
 
-                target="_blank"
-                Abre o link em uma nova aba.
+    <main>
+        <section>
+            <header>
+                <h2>Programação</h2>
+                <p>Publicações sobre as disciplinas deste semestre.</p>
+            </header>
 
-                rel="noopener"
-                Impede que a nova página acesse a página original
-                por meio de window.opener.
+            <article>
+                <header>
+                    <p class="categoria">Desenvolvimento Web I</p>
+                    <h3>Como uma página de perfil virou um portal</h3>
+                    <p class="subtitulo">
+                        Estrutura semântica, páginas e links internos.
+                    </p>
+                </header>
 
-                rel="noreferrer"
-                Impede o envio do endereço da página de origem
-                para o site acessado.
+                <img
+                    src="./img/estrada.avif"
+                    alt="Computador apresentando um código HTML"
+                >
 
-                Esses atributos ajudam a evitar ataques como
-                reverse tabnabbing.
-            -->
-            <ul style="list-style-type: none; padding: 0; display: flex; gap: 10px;">
-                <li>
-                    <a href="https://www.linkedin.com/in/cristofer-sousa-08a0b020a/" target="_blank" rel="noopener noreferrer">
-                        LinkedIn
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/cristofer-sousa" target="_blank" rel="noopener noreferrer">
-                        GitHub
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/cristofer.sousa/" target="_blank" rel="noopener noreferrer">
-                        Instagram
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </body>
+                <p>
+                    Na primeira aula, criamos uma página de perfil. Agora,
+                    essa página fará parte de um portal com conteúdos sobre
+                    programação, hobbies e informações pessoais.
+                </p>
+
+                <p>
+                    Para organizar o conteúdo, utilizamos as tags
+                    <strong>header</strong>, <strong>nav</strong>,
+                    <strong>main</strong>, <strong>section</strong>,
+                    <strong>article</strong> e <strong>footer</strong>.
+                </p>
+
+                <footer>
+                    <p>
+                        Publicado em
+                        <time datetime="2026-08-21T20:30">
+                            21 de agosto de 2026, às 20h30
+                        </time>
+                    </p>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <p class="categoria">Redes de Computadores</p>
+                    <h3>Como uma página chega ao navegador?</h3>
+                </header>
+
+                <p>
+                    Nesta disciplina, estamos conhecendo o caminho percorrido
+                    pelas informações entre o navegador e o servidor.
+                </p>
+
+                <footer>
+                    <p>
+                        Publicado em
+                        <time datetime="2026-08-14">14 de agosto de 2026</time>
+                    </p>
+                </footer>
+            </article>
+
+             <article>
+                <header>
+                    <p class="categoria">Redes de Computadores</p>
+                    <h3>Como uma página chega ao navegador?</h3>
+                </header>
+
+                <p>
+                    Nesta disciplina, estamos conhecendo o caminho percorrido
+                    pelas informações entre o navegador e o servidor.
+                </p>
+
+                <footer>
+                    <p>
+                        Publicado em
+                        <time datetime="2026-08-14">14 de agosto de 2026</time>
+                    </p>
+                </footer>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido na disciplina de Desenvolvimento Web I.</p>
+        <p>IFC — Campus Araquari — 2026</p>
+    </footer>
+</body>
 </html>
